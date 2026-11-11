@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Privacy: never commit real workbooks or generated data
+*.xlsx
+*.xls
+*.csv
+
+# Local outputs
+output/
+sankey-output/
+dist/
+*.zip
+
+# Matplotlib cache
+.cache/
